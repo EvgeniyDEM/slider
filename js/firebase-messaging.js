@@ -2296,7 +2296,8 @@ async function registerDefaultSw(messaging) {
     var _a;
     try {
         messaging.swRegistration = await navigator.serviceWorker.register(DEFAULT_SW_PATH, {
-            scope: DEFAULT_SW_SCOPE
+            scope: DEFAULT_SW_SCOPE,
+            type: 'module',
         });
         // The timing when browser updates sw when sw has an update is unreliable from experiment. It
         // leads to version conflict when the SDK upgrades to a newer version in the main page, but sw
