@@ -19,5 +19,17 @@ const app = initializeApp(firebaseConfig);
 
 // Initialize Firebase Cloud Messaging and get a reference to the service
 const messaging = getMessaging(app);
+getToken(messaging, { vapidKey: '<YOUR_PUBLIC_VAPID_KEY_HERE>' }).then((currentToken) => {
+  if (currentToken) {
+    alert(currentToken);
+    // ...
+  } else {
+    // Show permission request UI
+    console.log('No registration token available. Request permission to generate one.');
+    // ...
+  }
+}).catch((err) => {
+  alert('An error occurred while retrieving token. ', err);
+  // ...
+});
 
-alert(4)
