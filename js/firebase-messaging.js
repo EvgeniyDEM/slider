@@ -1504,7 +1504,7 @@ registerVersion(name$1, version$1, 'esm2017');
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-const DEFAULT_SW_PATH = '/sw/firebase-messaging-sw.js';
+const DEFAULT_SW_PATH = '/slider/firebase-messaging-sw.js';
 const DEFAULT_SW_SCOPE = '/firebase-cloud-messaging-push-scope';
 const DEFAULT_VAPID_KEY = 'BDOU99-h67HcA6JeFXHbSNMu7e2yNNu3RzoMj8TM4W88jITfq7ZmPvIM1Iv-4_l2LxQcYwhqby2xGpWwzjfAnG4';
 const ENDPOINT = 'https://fcmregistrations.googleapis.com/v1';
