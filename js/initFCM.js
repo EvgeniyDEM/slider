@@ -10,7 +10,7 @@ const firebaseConfig = {
   projectId: "pushnotification-225412",
   storageBucket: "pushnotification-225412.appspot.com",
   messagingSenderId: "234440847732",
-  appId: "1:234440847732:web:bf1f511ac862e69672fc21"
+  appId: "1:234440847732:web:97db054719fcfb5e72fc21"
 };
 
 // Initialize Firebase
