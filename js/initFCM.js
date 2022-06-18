@@ -19,7 +19,7 @@ const app = initializeApp(firebaseConfig);
 
 // Initialize Firebase Cloud Messaging and get a reference to the service
 const messaging = getMessaging(app);
-getToken(messaging, { vapidKey: '<YOUR_PUBLIC_VAPID_KEY_HERE>' }).then((currentToken) => {
+getToken(messaging, { vapidKey: 'BBTuXHkaMfUdFs_76IGTW67C_ZaqMElvB3tOlCEa6_DS5eAPqIjISjPxnMVk5Fgk3YwtyjYzLsLY3t5gdQ6jO78' }).then((currentToken) => {
   if (currentToken) {
     alert(currentToken);
     // ...
