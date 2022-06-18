@@ -1,7 +1,7 @@
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
 import { getMessaging,getToken,onBackgroundMessage} from "https://www.gstatic.com/firebasejs/9.8.3/firebase-messaging-sw.js";
-console.log('sssssssssssssssssssssssssssssssssssssssssss');
+
 
 // Initialize the Firebase app in the service worker by passing in
 // your app's Firebase config object.
@@ -20,7 +20,7 @@ console.log('sssssssssssssssssssssssssssssssssssssssssss');
 // messages.
 const messaging = getMessaging(firebaseApp);
 
-const messaging = getMessaging();
+
 onBackgroundMessage(messaging, (payload) => {
   console.log('[firebase-messaging-sw.js] Received background message ', payload);
   // Customize notification here
