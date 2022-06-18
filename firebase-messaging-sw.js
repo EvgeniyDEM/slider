@@ -1,8 +1,8 @@
-/*
+
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
 import { getMessaging,getToken,onBackgroundMessage} from "https://www.gstatic.com/firebasejs/9.8.3/firebase-messaging-sw.js";
-
-
+console.log();
+/*
 // Initialize the Firebase app in the service worker by passing in
 // your app's Firebase config object.
 // https://firebase.google.com/docs/web/setup#config-object
