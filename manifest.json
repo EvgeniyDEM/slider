@@ -1,0 +1,27 @@
+{
+	"name": "WEB ПТЕ",
+	"short_name": "WEB ПТЕ",
+	"start_url": "BoilerObjects/index",
+	"scope": "/BoilerObjects/",
+	"icons": [
+		{
+			"src": "BoilerObjects/img/logo_192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "BoilerObjects/img/logo_512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "BoilerObjects/img/logo_256.png",
+			"sizes": "256x256",
+			"type": "image/png",
+			"purpose" :"maskable"
+		}
+	],
+	"display": "fullscreen",
+	"theme_color": "#000",
+	"background_color": "#000"
+}
