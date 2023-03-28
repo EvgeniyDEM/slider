@@ -1,8 +1,8 @@
 {
 	"name": "WEB ПТЕ",
 	"short_name": "WEB ПТЕ",
-	"start_url": "BoilerObjects/index",
-	"scope": "/BoilerObjects/",
+	"start_url": "https://evgeniydem.github.io/slider/index",
+	"scope": "/slider/",
 	"icons": [
 		{
 			"src": "https://dispatcher.pte.pl.ua/BoilerObjects/img/logo_192.png",
